@@ -1,0 +1,174 @@
+
+
+
+#card1{
+  margin-left: 250px;
+}
+
+
+#heading{
+  margin-bottom: 500px;
+}
+
+
+#toe{
+  width: 2px;
+
+}
+
+#go{
+  float: left;
+}
+
+#go2{
+  float: right;
+}
+
+#name{
+        margin-left: 5rem
+}
+
+
+
+#inage{
+        width:3rem;
+        height:3rem;
+        border-radius:50%;
+}
+
+#main{
+        margin-left: 5px;
+        color: whitesmoke;
+}
+
+#main:hover{
+  color: red;
+}
+
+
+#i{
+ color: whitesmoke;  
+
+      
+}
+#i:hover{
+        color: red;
+}
+
+.sm:text-3xl text-2xl font-medium title-font mb-4 text-white{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#il{
+ color: whitesmoke; 
+ margin-left: 2rem 
+
+      
+}
+#il:hover{
+        color: red;
+        margin-left: 2rem;
+        text-decoration-line: none;
+}
+
+
+.scrollToTopBtn {
+  /* same general styles as before */
+  
+  /* place it at the bottom-right corner */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  /* keep it at the top of everything else */
+  z-index: 100;
+
+  /* hide with opacity */
+  opacity: 0;
+
+  /* also add a translate effect */
+  transform: translateY(100px);
+
+  /* and a transition */
+  transition: all .5s ease
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0)
+}
+
+span{
+  display: block;
+  padding-block-start: 20px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gloss:hover{
+  color: red;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1A202C;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2D3748;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #667EEA;
+  border-radius: 5px;
+}
+
+
+.social-footer {
+  padding: 2rem !important;
+  background: #ffffff !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-justify-content: space-between !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0 !important;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem !important;
+  color: #fefefe !important;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a !important;
+  transition: color 0.3s ease-in !important;
+}
+
+.social-footer-icons {
+  width: 1500px !important;
+  font-size: 19.4px;
+  text-decoration: none !important;
+}
