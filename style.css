@@ -1,6 +1,8 @@
 
 
 
+
+
 #card1{
   margin-left: 250px;
 }
@@ -123,7 +125,7 @@ html{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #1A202C;
+  background: rgba(0, 0, 0, 0)
 }
 
 /* Handle */
@@ -171,4 +173,8 @@ html{
   width: 1500px !important;
   font-size: 19.4px;
   text-decoration: none !important;
+}
+
+body {
+  overflow: overlay !important;
 }
